@@ -7,6 +7,7 @@ class star1
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the number");
         n=sc.nextInt();
+         sc.close();
         return n;
     }
     public static void loop()
